@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shankha Shubhra Maity - Full Stack Developer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-gray-200">
+    <!-- Header/Navigation -->
+    <header class="bg-gray-800 shadow-lg py-4 px-6 fixed w-full z-10">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-indigo-400 rounded-md p-2 hover:bg-indigo-700 transition duration-300">Shankha Shubhra</a>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="text-lg hover:text-indigo-400 transition duration-300">About</a></li>
+                <li><a href="#skills" class="text-lg hover:text-indigo-400 transition duration-300">Skills</a></li>
+                <li><a href="#projects" class="text-lg hover:text-indigo-400 transition duration-300">Projects</a></li>
+                <li><a href="#contact" class="text-lg hover:text-indigo-400 transition duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pt-20"> <!-- Padding top to account for fixed header -->
+        <!-- Hero/About Me Section -->
+        <section id="about" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-800 to-gray-900 text-center p-8">
+            <div class="max-w-4xl mx-auto bg-gray-700 bg-opacity-40 backdrop-filter backdrop-blur-lg p-10 rounded-xl shadow-2xl border border-gray-600">
+                <img src="https://placehold.co/150x150/6366f1/ffffff?text=SS" alt="Shankha Shubhra Maity" class="w-36 h-36 rounded-full mx-auto mb-6 border-4 border-indigo-400 shadow-lg">
+                <h1 class="text-5xl font-extrabold text-indigo-300 mb-4 leading-tight">Hello, I'm Shankha Shubhra Maity</h1>
+                <p class="text-2xl text-gray-300 mb-8">A Passionate <span class="font-semibold text-indigo-400">Full Stack Web Developer</span></p>
+                <p class="text-lg text-gray-400 leading-relaxed max-w-2xl mx-auto">
+                    I build robust and scalable web applications from front-end to back-end. With a strong focus on clean code and user experience, I transform ideas into functional and beautiful digital solutions.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="bg-gray-800 py-20 px-8">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl font-bold text-indigo-300 mb-12">My Skills</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Frontend Skills -->
+                    <div class="bg-gray-700 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2 border border-gray-600">
+                        <h3 class="text-2xl font-semibold text-indigo-400 mb-4">Frontend</h3>
+                        <ul class="list-disc list-inside text-gray-300 text-left space-y-2">
+                            <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                            <li>React.js, Next.js</li>
+                            <li>Tailwind CSS, Bootstrap</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <!-- Backend Skills -->
+                    <div class="bg-gray-700 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2 border border-gray-600">
+                        <h3 class="text-2xl font-semibold text-indigo-400 mb-4">Backend</h3>
+                        <ul class="list-disc list-inside text-gray-300 text-left space-y-2">
+                            <li>Node.js, Express.js</li>
+                            <li>Python, Django, Flask</li>
+                            <li>RESTful APIs</li>
+                            <li>Authentication & Authorization</li>
+                        </ul>
+                    </div>
+                    <!-- Database & Tools -->
+                    <div class="bg-gray-700 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2 border border-gray-600">
+                        <h3 class="text-2xl font-semibold text-indigo-400 mb-4">Database & Tools</h3>
+                        <ul class="list-disc list-inside text-gray-300 text-left space-y-2">
+                            <li>MongoDB, PostgreSQL, MySQL</li>
+                            <li>Git, GitHub</li>
+                            <li>Docker (Basic)</li>
+                            <li>Deployment (Netlify, Vercel, Heroku)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section (Placeholder) -->
+        <section id="projects" class="bg-gray-900 py-20 px-8">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl font-bold text-indigo-300 mb-12">My Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project Card 1 -->
+                    <div class="bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-700">
+                        <img src="https://placehold.co/400x250/374151/d1d5db?text=Project+1" alt="Project 1" class="rounded-lg mb-4 w-full h-48 object-cover">
+                        <h3 class="text-2xl font-semibold text-indigo-400 mb-2">Project Title One</h3>
+                        <p class="text-gray-400 mb-4">A brief description of Project One, highlighting technologies used and its purpose.</p>
+                        <a href="#" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-md transition duration-300">View Project</a>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-700">
+                        <img src="https://placehold.co/400x250/374151/d1d5db?text=Project+2" alt="Project 2" class="rounded-lg mb-4 w-full h-48 object-cover">
+                        <h3 class="text-2xl font-semibold text-indigo-400 mb-2">Project Title Two</h3>
+                        <p class="text-gray-400 mb-4">A brief description of Project Two, highlighting technologies used and its purpose.</p>
+                        <a href="#" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-md transition duration-300">View Project</a>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-700">
+                        <img src="https://placehold.co/400x250/374151/d1d5db?text=Project+3" alt="Project 3" class="rounded-lg mb-4 w-full h-48 object-cover">
+                        <h3 class="text-2xl font-semibold text-indigo-400 mb-2">Project Title Three</h3>
+                        <p class="text-gray-400 mb-4">A brief description of Project Three, highlighting technologies used and its purpose.</p>
+                        <a href="#" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-md transition duration-300">View Project</a>
+                    </div>
+                </div>
+                <p class="text-lg text-gray-400 mt-12">More projects coming soon!</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-gray-800 py-20 px-8">
+            <div class="container mx-auto text-center max-w-2xl">
+                <h2 class="text-4xl font-bold text-indigo-300 mb-12">Get In Touch</h2>
+                <p class="text-lg text-gray-300 mb-8">
+                    I'm always open to new opportunities and collaborations. Feel free to reach out!
+                </p>
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-8">
+                    <a href="mailto:shankhashubhramaity577@gmail.com"
+                       class="flex items-center bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105">
+                        <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-18 4v7a2 2 0 002 2h14a2 2 0 002-2v-7m-18 0l-4 4"></path></svg>
+                        Email Me
+                    </a>
+                    <a href="https://github.com/Shankha-Shubhra" target="_blank" rel="noopener noreferrer"
+                       class="flex items-center bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105">
+                        <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.47.087.683-.233.683-.58v-1.993c-2.775.604-3.363-1.37-3.363-1.37-.489-1.244-1.178-1.573-1.178-1.573-.96-.653.072-.64.072-.64 1.065.072 1.622 1.03 1.622 1.03.945 1.615 2.477 1.147 3.08.877.097-.676.374-1.147.674-1.407-2.35-.26-4.814-1.172-4.814-5.253 0-1.16.413-2.105 1.082-2.85-.11-.26-.473-1.35.103-2.823 0 0 .887-.286 2.903 1.026A10.956 10.956 0 0112 5.017c.85.003 1.7.113 2.497.331 2.016-1.312 2.903-1.026 2.903-1.026.577 1.473.214 2.563.103 2.823.67.745 1.082 1.69 1.082 2.85 0 4.09-2.468 4.98-4.825 5.23.38.33.729.96.729 1.936v2.906c0 .347.213.673.689.58 3.97-1.327 6.833-5.08 6.833-9.504C22 6.484 17.523 2 12 2Z" clip-rule="evenodd" /></svg>
+                        GitHub Profile
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-8 text-center text-gray-500 text-sm border-t border-gray-700">
+        <p>&copy; 2025 Shankha Shubhra Maity. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to your external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
