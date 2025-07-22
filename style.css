@@ -1,0 +1,57 @@
+/* style.css */
+
+/* Smooth scrolling for anchor navigation */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1f2937; /* Tailwind's gray-800 */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #6366f1; /* Tailwind's indigo-500 */
+    border-radius: 6px;
+    border: 2px solid #1f2937;
+}
+
+/* Section fade-in animations */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Button hover grow */
+.button-grow {
+    transition: transform 0.3s ease;
+}
+
+.button-grow:hover {
+    transform: scale(1.05);
+}
+
+/* Highlight active navigation link (optional JS needed to toggle this) */
+.nav-link.active {
+    color: #a5b4fc; /* Tailwind's indigo-300 */
+    border-bottom: 2px solid #a5b4fc;
+}
+
+/* Optional: Subtle hover for project cards */
+.project-card:hover {
+    box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
