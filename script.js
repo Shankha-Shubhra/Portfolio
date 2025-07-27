@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }, {
         threshold: 0.2
     });
-
     sections.forEach(section => observer.observe(section));
 
     // Highlight nav link based on scroll position
