@@ -2,7 +2,7 @@
 
 /* Smooth scrolling for anchor navigation */
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Custom scrollbar styling */
