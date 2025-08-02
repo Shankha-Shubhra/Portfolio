@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll("nav ul li a");
 
-    // Add fade-in when sections enter viewport
+    //  Add fade-in when sections enter viewport
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
