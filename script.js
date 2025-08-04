@@ -1,4 +1,4 @@
-// Wait for the DOM to load
+  // Wait for the DOM to load
 document.addEventListener("DOMContentLoaded", () => {
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll("nav ul li a");
