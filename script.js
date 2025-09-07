@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //  Add fade-in when sections enter viewport
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
-            if (entry.isIntersecting) {
+           if (entry.isIntersecting) {
                 entry.target.classList.add("fade-in");
             }
         });
