@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     sections.forEach(section => observer.observe(section));
 
-    // Highlight nav link based on scroll position
+    //  Highlight nav link based on scroll position
     window.addEventListener("scroll", () => {
         let current = "";
         sections.forEach(section => {
